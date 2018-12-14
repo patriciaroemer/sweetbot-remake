@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+@import "simplegrid.css";
+
+.main_nav {
+	background-color: #749CD3;
+	height: 80px;
+}
+.logo {
+	display: inline;
+    position:absolute;
+	left: 0;
+	right: 0;
+	margin: 0;
+	
+}
+ul#menu {
+	float: right;
+}
+.navbar ul {
+	overflow: hidden;
+	padding: 0;
+	list-style: none;
+}
+
+.navbar li {
+	display: inline-block;
+	margin: 10px;
+}
+
+nav a {
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 18px;
+	padding: 5px;
+	color: #000000;
+		
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-right: 10px;
+   opacity: 0.9;
+   color: white;
+   text-align: right;
+   font-weight: 200;
+   font-style: italic;
+   font-size: .8em;
+}
+footer .icon-footer a{
+	float: left;
+	color: #000000;
+	text-align: left;
+	padding: 3px 5px 5px 5px;
+	margin: 10px;
+	font-size: 15px;
+} 
+footer .icon-footer a:hover {
+	background-color: #935347;
+}

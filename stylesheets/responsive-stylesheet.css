@@ -1,0 +1,786 @@
+@charset "utf-8";
+/* CSS Document */
+@import "simplegrid.css";
+
+/* browser /CSS reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------- her kommer mine styles--------------*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 2%;
+	background: #3D6BB4;
+}
+
+.container {
+	background: #FFFFFF;
+	padding: 20%;
+	overflow: visible;
+}
+
+/*-----------menu-mobile-tablet----------*/
+
+.topnav {
+  display: block;
+  position: absolute;
+  left: 75%;
+  width: 20%;
+
+
+}
+.topnav #myLinks {
+  display: none;
+  width: 180%;
+  margin-top: 80px;
+  margin-right: -20px;
+  background-color: #749CD3;
+  z-index: 3;
+  list-style: none;
+  text-align: center;
+}
+
+.topnav a {
+  color: white;
+ 
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.burger a.icon {
+  position: absolute;
+  right: 0px;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color:  #DF9B67;
+  color: black;
+}
+/*------------meny-laptop---------------------*/
+.logo {
+	margin-top: 20px;
+	
+}
+.mainNav {
+	background-color: #749CD3;
+	height: 100px;
+	
+}
+	
+
+ul.menu {
+	display: inline-block;
+	text-align: right;
+	padding-top: 20px;
+	
+}
+nav ul {
+	
+	overflow: hidden;
+	padding-top: 15px;
+	padding-left: 80px;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	text-align: right;
+}
+
+nav a {
+	display:block;
+	padding: 15px;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+	color: #000000;	
+}
+
+/* DET VI TILBYDER */
+
+.iconercontainer{
+	display: inline-block;
+}
+
+.teksttiliconer{
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.teksttiliconer1{
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	margin-left: 10%;
+}
+
+.teksttiliconer2{
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	margin-left: 10%;
+}
+
+.teksttiliconer3{
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	margin-left: 10%;
+}
+.active {
+	color: #DF9B67;
+}
+/*----------------Hotbot side-----------------------------------------*/
+.hotLogo {
+	width: 60%;
+	height: 60%;
+	margin-top: 2%;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 2%;
+	}
+.hotText {
+	text-align: left;
+	padding: 0% 20% 5% 20%;
+	color: #707070;
+	font-size: 18px;
+	column-count: 2;
+}
+.hotOverskrift {
+	text-align: center;
+	color: #707070;
+	font-size: 20px;
+	padding-bottom: 2%;
+	
+}
+
+div.galbot:hover {
+    border: 1px solid #777;
+}
+div.galkryd:hover {
+    border: 1px solid #777;
+}
+div.galhjem:hover {
+    border: 1px solid #777;
+}
+div.galtoj:hover {
+    border: 1px solid #777;
+}
+
+div.galbot img {
+    width: 100%;
+    height: auto;
+	border: 1px solid #ccc;
+}
+div.galkryd img {
+    width: 100%;
+    height: 219px;
+	border: 1px solid #ccc;
+}
+div.galhjem img {
+    width: 100%;
+    height: 214px;
+	border: 1px solid #ccc;
+}
+div.galtoj img {
+    width: 100%;
+    height: 224px;
+	border: 1px solid #ccc;
+}
+
+div.descbot {
+    padding: 15px;
+    text-align: center;
+   font-weight: 600;
+}
+
+.galRes {
+    padding: 14px;
+	float: left;
+    width: 34.99999%;
+}
+.galPad {
+	margin-bottom: 50px;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*---------------kontakt side for tablet og laptop --------------------*/
+
+.h1-kontaktside {
+	padding: 5% 20% 0 ;
+	color: #2A1000;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	font-style: bold;
+}
+
+.backkontakt {
+	background: #FFFFFF;
+	padding: 0;
+	margin: 20px 10%;
+} 
+
+.wrapper {
+	position: relative;
+	margin-top: auto;
+	padding-top: 20px;
+	align-content: center;
+	
+	
+	
+}
+
+.contakt-form {
+	
+	margin: 0 auto;
+	background: transperent;
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	
+}
+
+.input-fields {
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+	color: #749CD3;
+	
+}
+
+.input-fields,
+.msg {
+	width: 50%;
+	
+	
+}
+
+.input-fields .input,
+.msg textarea {
+	margin: 10px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #2A1000;
+	padding: 10px;
+	width: 100%;
+}
+
+.msg textarea {
+	height: 220px;
+}
+
+::-webkit-input-placeholder {
+	color: #3D6BB4;
+}
+
+.btn {
+	background: #3D6BB4;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-transform: uppercase;
+	
+}
+/* ------------------forside-------------------*/
+
+.content {
+	background-color: #FFFFFF;
+	overflow: visible;
+}
+.content2{
+	overflow: visible;
+}
+
+/*slide show grid*/
+.slide {
+	text-align: center;
+	margin-top: 0%;
+
+}
+
+.design {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.design2 {
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.design3 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+.design4 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.tilbyder {
+	background-color: #3D6BB5;
+	text-align: center;
+	height: 50px;
+}
+
+.forsidetilbyd {
+	margin-top: 20px;
+	font-size: 25px;
+	
+}
+
+/*------------------slideshov til forsiden-------------------*/
+.case {
+	padding-top: 38px;
+	padding-bottom: 38px;
+	color: #2A1000;
+	text-align: center;
+	font-size: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-gallary {
+	position: relative;
+	object-position: center;
+	width: 50%;
+	margin: 25% 25% 0;
+	margin-top: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding-left: 16px;
+  /*margin-top: -50px;*/
+  color: #3D6BB5;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #3D6BB5;
+  font-size: 12px;
+  padding: 10px 12px;
+  position: relative;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+/*----------------Cases-------------------------*/
+
+.gallery {
+    width: 20%;
+	text-align: center;
+	z-index: -1
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.containerKos {
+    position: relative;
+    width: 50%;
+}
+.containerKryd {
+	position: relative;
+	width: 50%;
+}
+.containerSpa {
+	position: relative;
+	width: 50%;
+}
+.containertoj {
+	position: relative;
+	width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerKos:hover .image {
+  opacity: 0.3;
+}
+.containerKryd:hover .image {
+	opacity: 0.3;
+}
+.containerSpa:hover .image {
+	opacity: 0.3;
+}
+.containertoj:hover .image {
+	opacity: 0.3;
+}
+.containerKos:hover .middle {
+  opacity: 1;
+}
+.containerKryd:hover .middle {
+	opacity: 1;
+}
+.containerSpa:hover .middle {
+	opacity: 1;
+}
+.containertoj:hover .middle {
+	opacity: 1;
+}
+
+.textCase {
+  background-color: #DF9B67;
+  color: #2A1000;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* ------------------SERVICES------------------ */
+
+
+.services-overskrift {
+	text-align: center;
+	padding-bottom:10px;
+	padding-top: 10px;
+	font-size: 50px;
+
+}
+
+.services-underoverskrift{
+	text-align: left;
+	padding-bottom: 2px;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 30px;
+	
+}
+
+.services-paragraf{
+	padding-bottom: 10px;
+	padding-left: 1.6%;
+	padding-right: 1.6%;
+	line-height: 25px;
+	height: 255px;
+}
+#services-paragraf1 {
+	float: left;
+	display: block;
+	column-count: 2;
+	padding-bottom: 5%;
+}
+#services-paragraf2 {
+	float: left;
+	display: block;
+	column-count: 2;
+	padding-bottom: 5%;
+}
+#services-paragraf3 {
+	float: left;
+	display: block;
+	column-count: 2;
+	padding-bottom: 5%;
+}
+#services-paragraf4 {
+	float: left;
+	display: block;
+	column-count: 2;
+	padding-bottom: 5%;
+}
+/*------------------ OM OS-------------------------*/
+
+.omos-overskrift{
+	text-align: center;
+	padding-bottom:10px;
+	padding-top: 10px;
+	font-size: 50px;
+}
+
+.omos-paragraf{
+	text-align: left;
+	padding-bottom: 10px;
+	padding-left: 1.6%;
+	padding-right: 1.6%;
+	line-height: 25px;
+}
+#omosparagraf1 {
+	column-count: 2;
+	padding-bottom: 1.6%;
+}
+
+.box{
+	background: lightgrey;
+	outline: 1px solid black;
+	padding-left:15%;
+	padding-right: 15%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	font-style: oblique;
+	margin-bottom: 2px;
+}
+.boxfour{
+	background: lightgrey;
+	outline: 1px solid black;
+	padding-left:15%;
+	padding-right: 12%;
+	padding-top: 20%;
+	padding-bottom: 16%;
+	margin-bottom: 8px;
+	font-style: oblique;
+}
+
+
+.kundefeedback{
+	font-style:normal;
+	padding-top: 10%;
+}
+.medarbejder {
+	width: 50%;
+}
+
+
+/*------------------footer-------------------------*/
+
+.footer {
+
+	color: #2A1000;
+	margin-top: 1%;
+	height: 100px;
+	/*border-top: 2px solid #000000;*/
+	background: #749CD3;
+
+}
+
+.kontaktfooter{
+	padding-left: 7%;
+
+}
+
+.afstandtilkontaktfooter{
+	padding-top: 8px;
+}
+
+.copyright{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.socialmediaicon{
+	width: 10%;
+	height: auto;
+	float: right;
+	padding-top: 20px;
+}
+
+
+/* ------------------@media screen----------------------- */
+
+/* FOR AT GØRE DET RESPONSIVT */
+
+/* DESKTOP og LAPTOP */
+
+@media screen and (min-width: 1000px) {
+	.topnav .burger{
+		display: none;
+		width: 80px;
+			
+	}
+	.galres {
+		display: block;
+	}
+	.logoTab {
+		display: none;
+	}
+	.wrapper {
+		margin: 0 50px;
+	}
+}
+
+/* KOMBI MELLEM TLF OG TABLET */
+
+@media screen and (max-width: 1000px) {
+	.mainNav {
+		display: none;
+	}
+}
+
+/* TELEFON */
+
+@media screen and (max-width: 600px) {
+	.footer {
+		display: none;
+	}
+
+	.contakt-form {
+		flex-direction: column;
+	}
+	.msg textarea {
+		height: 80px;
+	}
+	
+	.input-fields,
+	.msg {
+		width: 100%;
+	}
+}
+/*hotbot gallery*/
+@media only screen and (max-width: 700px) {
+    .galRes {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .galRes {
+        width: 100%;
+    }
+}

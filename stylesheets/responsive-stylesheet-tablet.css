@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+@import "simplegrid.css";
+/* CSS til mellemformat evt. ipad*/
+
+footer {
+	display: block;
+	height: 80px;
+	background: #749CD3;
+}
+
+.logo {
+	width: 15.5%;
+}
+
+nav {
+	width: 75.5%;
+	height: 60px;
+}
+
+article {
+	width: 60%;
+}
+
+.banner {
+	width: 31%;
+	background: #749CD3;
+	height: 200px;
+}
+
